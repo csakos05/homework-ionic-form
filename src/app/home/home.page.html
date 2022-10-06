@@ -11,11 +11,11 @@
     </ion-item>
     <ion-item lines="full">
       <ion-label position="floating">ID 2</ion-label>
-      <ion-input formControlName="input_id2" type="email"></ion-input>
+      <ion-input formControlName="input_id2" type="text"></ion-input>
     </ion-item>  
     <ion-item lines="full">
       <ion-label position="floating">ID 3</ion-label>
-      <ion-input maxlength="10" formControlName="input_id3" type="text" required></ion-input>
+      <ion-input formControlName="input_id3" type="text" required></ion-input>
     </ion-item>
     <span class="error ion-padding" *ngIf="isSubmitted && errorControl.input_id3.errors?.required">
       ID 3 is required.
